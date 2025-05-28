@@ -1,0 +1,2 @@
+flask
+gunicorn #Production server for flask
