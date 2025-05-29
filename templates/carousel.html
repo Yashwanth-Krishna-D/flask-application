@@ -1,0 +1,36 @@
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="{{ url_for('static', filename='banner3.jpg') }}" class="d-block w-100 carousel-img" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome to My Portfolio</h5>
+        <p>Explore my projects and achievements.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='banner2.jpg') }}" class="d-block w-100 carousel-img" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Passion for Innovation</h5>
+        <p>Always learning, building, and growing.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='banner1.jpg') }}" class="d-block w-100 carousel-img" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Let's Connect</h5>
+        <p>Get in touch via the contact section below.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
